@@ -1,0 +1,344 @@
+﻿<MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <language>
+    <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+  </language>
+  <characterSet>
+    <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+  </characterSet>
+  <hierarchyLevel>
+    <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+  </hierarchyLevel>
+  <hierarchyLevelName>
+    <gco:CharacterString>dataset</gco:CharacterString>
+  </hierarchyLevelName>
+  <contact>
+    <CI_ResponsibleParty>
+      <individualName>
+        <gco:CharacterString>Rod Bassler</gco:CharacterString>
+      </individualName>
+      <organisationName>
+        <gco:CharacterString>State Water Commission</gco:CharacterString>
+      </organisationName>
+      <positionName>
+        <gco:CharacterString>GIS Coordinator</gco:CharacterString>
+      </positionName>
+      <contactInfo>
+        <CI_Contact>
+          <phone>
+            <CI_Telephone>
+              <voice>
+                <gco:CharacterString>701-328-4998</gco:CharacterString>
+              </voice>
+            </CI_Telephone>
+          </phone>
+          <address>
+            <CI_Address>
+              <deliveryPoint>
+                <gco:CharacterString>900 East Boulevard Avenue, Dept 770</gco:CharacterString>
+              </deliveryPoint>
+              <city>
+                <gco:CharacterString>Bismarck</gco:CharacterString>
+              </city>
+              <administrativeArea>
+                <gco:CharacterString>ND</gco:CharacterString>
+              </administrativeArea>
+              <postalCode>
+                <gco:CharacterString>58505</gco:CharacterString>
+              </postalCode>
+              <electronicMailAddress>
+                <gco:CharacterString>rbassler@nd.gov</gco:CharacterString>
+              </electronicMailAddress>
+            </CI_Address>
+          </address>
+        </CI_Contact>
+      </contactInfo>
+      <role>
+        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" codeSpace="ISOTC211/19115">custodian</CI_RoleCode>
+      </role>
+    </CI_ResponsibleParty>
+  </contact>
+  <dateStamp>
+    <gco:Date>2019-02-26</gco:Date>
+  </dateStamp>
+  <metadataStandardName>
+    <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+  </metadataStandardName>
+  <metadataStandardVersion>
+    <gco:CharacterString>2007</gco:CharacterString>
+  </metadataStandardVersion>
+  <spatialRepresentationInfo>
+    <MD_VectorSpatialRepresentation>
+      <topologyLevel>
+        <MD_TopologyLevelCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115">geometryOnly</MD_TopologyLevelCode>
+      </topologyLevel>
+      <geometricObjects>
+        <MD_GeometricObjects>
+          <geometricObjectType>
+            <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="composite" codeSpace="ISOTC211/19115">composite</MD_GeometricObjectTypeCode>
+          </geometricObjectType>
+        </MD_GeometricObjects>
+      </geometricObjects>
+    </MD_VectorSpatialRepresentation>
+  </spatialRepresentationInfo>
+  <referenceSystemInfo>
+    <MD_ReferenceSystem>
+      <referenceSystemIdentifier>
+        <RS_Identifier>
+          <code>
+            <gco:CharacterString>4269</gco:CharacterString>
+          </code>
+          <codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </codeSpace>
+          <version>
+            <gco:CharacterString>6.12(3.0.1)</gco:CharacterString>
+          </version>
+        </RS_Identifier>
+      </referenceSystemIdentifier>
+    </MD_ReferenceSystem>
+  </referenceSystemInfo>
+  <identificationInfo>
+    <MD_DataIdentification>
+      <citation>
+        <CI_Citation>
+          <title>
+            <gco:CharacterString>Surficial Aquifers</gco:CharacterString>
+          </title>
+          <date>
+            <CI_Date>
+              <date>
+                <gco:Date>2017-01-13</gco:Date>
+              </date>
+              <dateType>
+                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+              </dateType>
+            </CI_Date>
+          </date>
+          <date>
+            <CI_Date>
+              <date>
+                <gco:Date>2019-02-01</gco:Date>
+              </date>
+              <dateType>
+                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
+              </dateType>
+            </CI_Date>
+          </date>
+          <citedResponsibleParty>
+            <CI_ResponsibleParty>
+              <individualName>
+                <gco:CharacterString>Rod Bassler</gco:CharacterString>
+              </individualName>
+              <organisationName>
+                <gco:CharacterString>State Water Commission</gco:CharacterString>
+              </organisationName>
+              <positionName>
+                <gco:CharacterString>GIS Coordinator</gco:CharacterString>
+              </positionName>
+              <contactInfo>
+                <CI_Contact>
+                  <phone>
+                    <CI_Telephone>
+                      <voice>
+                        <gco:CharacterString>701-328-4998</gco:CharacterString>
+                      </voice>
+                    </CI_Telephone>
+                  </phone>
+                  <address>
+                    <CI_Address>
+                      <deliveryPoint>
+                        <gco:CharacterString>900 East Boulevard Avenue, Dept 770</gco:CharacterString>
+                      </deliveryPoint>
+                      <city>
+                        <gco:CharacterString>Bismarck</gco:CharacterString>
+                      </city>
+                      <administrativeArea>
+                        <gco:CharacterString>ND</gco:CharacterString>
+                      </administrativeArea>
+                      <postalCode>
+                        <gco:CharacterString>58505</gco:CharacterString>
+                      </postalCode>
+                      <electronicMailAddress>
+                        <gco:CharacterString>rbassler@nd.gov</gco:CharacterString>
+                      </electronicMailAddress>
+                    </CI_Address>
+                  </address>
+                </CI_Contact>
+              </contactInfo>
+              <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" codeSpace="ISOTC211/19115">custodian</CI_RoleCode>
+              </role>
+            </CI_ResponsibleParty>
+          </citedResponsibleParty>
+          <presentationForm>
+            <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
+          </presentationForm>
+        </CI_Citation>
+      </citation>
+      <abstract>
+        <gco:CharacterString>Update - 2/1/2019 - Added the Cattail Aquifer which overlays the Winona Aquifer in southwest Emmons County. Also edited and updated the Winona Aquifer boundaries. Update - 8/31/2017 - Added the Tiffany Flats Aquifer overlying the New Rockford Aquifer in Eddy County.Update - 8/22/2017 - Named several previously unnamed aquifers: Austin, Bicker, Clayton, Clearwater, Cleary, Crane Creek, Edgemont, Foothills, Foothills South, Lucy, McClusky, Roosevelt, Shealy, Stoneview, and Tolgen North. Update - 1/13/2017 - Boundary extent changes to the Cut Bank Creek and Lake Souris aquifers in McHenry County. Rename of the Cut Bank Creek aquifer in Renville / Bottineau counties to Mohall aquifer, and creation of a new aquifer in southern Barnes County called Little Stoney Aquifer. Update - 8/5/16 - Boundary extent changes to the Streeter aquifer. Also named previously unnamed aquifers in Benson County: Fillmore, Big Coulee and OberonUpdate - 12/14/15 - Boundary extent changes to the Napoleon aquifer. Update - 12/11/15 - Boundary extent changes to the Munich and Napoleon aquifers. Update - 12/4/15 - Boundary extent changes to the Inkster, Esmond, and McVille aquifers. Update - 08/27/15 - Boundary extent changes to the Pony Gulch aquiferUpdate - 7/15/13 - White Shield aquifer portion in Mountrail County was renamed to Sanish Aquifer based on the following report - Water Resources of the Fort Berthold Indian Reservation, West-Central North Dakota,Cates Steven W. and Macek-Rowland,Kathleen M.,Department of the Interior,U.S. Geological Survey,Water-Resources Investigations Report 98-4098, Bismarck, North Dakota 1998Updates - 4/30/13 - Boundary extent changes to the Killdeer and Horse Nose Butte aquifers along with the addition of the Lake Ilo aquiferUpdates - 4/23/13 - Typos corrected on the Spiritwood-Stutsman and Spiritwood-Grand Rapids namesUpdates - 08/08/12 - Several boundary extent changes were made to the Shell Creek-White Earth, Shell Creek-Central, and Shell Creek-East Branch aquifers (north and east of Stanley, Mountrail County). In addition, significant boundary changes were also made to the Rosefield and Carrington aquifers (north of Carrington, Foster/Wells counties). 04/10/12 - Two aquifers were named; the Zap Aquifer which is underneath the cities of Zap and Golden Valley, and the Otter Creek Aquifer which is approximately 12 miles southeast of the Zap Aquifer01/10/2011 - Boundaries on the Central Dakota Aquifer were updated</gco:CharacterString>
+      </abstract>
+      <purpose>
+        <gco:CharacterString>The digital coverage of the glacial drift aquifers was initially derived from "Map Showing Glacial Drift Aquifers in Noerth Dakota and Estimated Potential Yields, 1986" and modified reflecting new data collected over the last 20+ years. It is primarily the estimated boundaries of the major glacial-drift aquifers initially described in the county ground-water studies produced by the US Geological Survey in cooperation with the North Dakota State Water Commission and the North Dakota Geological Survey. New updates were developed by the Appropriations division staff of the North Dakota State Water Commission. These aquifers are considered to have the greatest potential for yielding significant quantities of water for municipal, industrial, and agricultural purposes. They underlie an area of about 8,900 square miles. It is estimated that about 66 million acre-feet of water is stored in these aquifers. As a comparison, Lake Sakakawea behind Garrison Dam contains approximately 24 million acre-feet of water when full.
+</gco:CharacterString>
+      </purpose>
+      <credit>
+        <gco:CharacterString>North Dakota State Water Commission
+
+Questions about this layer should be directed to:
+Rod Bassler
+GIS Coordinator/Cartographer
+North Dakota State Water Commision
+rbassler@nd.gov - 701-328-4998</gco:CharacterString>
+      </credit>
+      <pointOfContact>
+        <CI_ResponsibleParty>
+          <individualName>
+            <gco:CharacterString>Rod Bassler</gco:CharacterString>
+          </individualName>
+          <organisationName>
+            <gco:CharacterString>State Water Commission</gco:CharacterString>
+          </organisationName>
+          <positionName>
+            <gco:CharacterString>GIS Coordinator</gco:CharacterString>
+          </positionName>
+          <contactInfo>
+            <CI_Contact>
+              <phone>
+                <CI_Telephone>
+                  <voice>
+                    <gco:CharacterString>701-328-4998</gco:CharacterString>
+                  </voice>
+                </CI_Telephone>
+              </phone>
+              <address>
+                <CI_Address>
+                  <deliveryPoint>
+                    <gco:CharacterString>900 East Boulevard Avenue, Dept 770</gco:CharacterString>
+                  </deliveryPoint>
+                  <city>
+                    <gco:CharacterString>Bismarck</gco:CharacterString>
+                  </city>
+                  <administrativeArea>
+                    <gco:CharacterString>ND</gco:CharacterString>
+                  </administrativeArea>
+                  <postalCode>
+                    <gco:CharacterString>58505</gco:CharacterString>
+                  </postalCode>
+                  <electronicMailAddress>
+                    <gco:CharacterString>rbassler@nd.gov</gco:CharacterString>
+                  </electronicMailAddress>
+                </CI_Address>
+              </address>
+            </CI_Contact>
+          </contactInfo>
+          <role>
+            <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" codeSpace="ISOTC211/19115">custodian</CI_RoleCode>
+          </role>
+        </CI_ResponsibleParty>
+      </pointOfContact>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>Downloadable Data</gco:CharacterString>
+          </keyword>
+          <thesaurusName uuidref="723f6998-058e-11dc-8314-0800200c9a66" />
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>100K</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>Aquifer</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>Hydrology</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>Water</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>USGS</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>SWC</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>Commission</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>State Water Commission</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>inlandWaters</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>environment</gco:CharacterString>
+          </keyword>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <resourceConstraints>
+        <MD_Constraints>
+          <useLimitation>
+            <gco:CharacterString>None</gco:CharacterString>
+          </useLimitation>
+        </MD_Constraints>
+      </resourceConstraints>
+      <spatialRepresentationType>
+        <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115">vector</MD_SpatialRepresentationTypeCode>
+      </spatialRepresentationType>
+      <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+      </language>
+      <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+      </characterSet>
+      <topicCategory>
+        <MD_TopicCategoryCode>environment</MD_TopicCategoryCode>
+      </topicCategory>
+      <topicCategory>
+        <MD_TopicCategoryCode>inlandWaters</MD_TopicCategoryCode>
+      </topicCategory>
+      <environmentDescription>
+        <gco:CharacterString> Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.0.8321</gco:CharacterString>
+      </environmentDescription>
+      <extent>
+        <EX_Extent>
+          <geographicElement>
+            <EX_GeographicBoundingBox>
+              <extentTypeCode>
+                <gco:Boolean>true</gco:Boolean>
+              </extentTypeCode>
+              <westBoundLongitude>
+                <gco:Decimal>-104.048894</gco:Decimal>
+              </westBoundLongitude>
+              <eastBoundLongitude>
+                <gco:Decimal>-96.571223</gco:Decimal>
+              </eastBoundLongitude>
+              <southBoundLatitude>
+                <gco:Decimal>45.828833</gco:Decimal>
+              </southBoundLatitude>
+              <northBoundLatitude>
+                <gco:Decimal>48.999692</gco:Decimal>
+              </northBoundLatitude>
+            </EX_GeographicBoundingBox>
+          </geographicElement>
+        </EX_Extent>
+      </extent>
+    </MD_DataIdentification>
+  </identificationInfo>
+  <distributionInfo>
+    <MD_Distribution>
+      <distributionFormat>
+        <MD_Format>
+          <name>
+            <gco:CharacterString>SDE Feature Class</gco:CharacterString>
+          </name>
+          <version gco:nilReason="missing" />
+        </MD_Format>
+      </distributionFormat>
+    </MD_Distribution>
+  </distributionInfo>
+</MD_Metadata>
